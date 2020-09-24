@@ -1,0 +1,159 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  height: 100%;
+}
+
+.section1 {
+  /* The image used */
+  -webkit-animation-name: opene;
+          animation-name: opene;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  background-image: url("8006.jpg");
+  /* Full height */
+  height: 800px;
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.section1 .box {
+  -webkit-animation-name: openb;
+          animation-name: openb;
+  -webkit-animation-duration: 0.5s;
+          animation-duration: 0.5s;
+  position: absolute;
+  padding: 30px;
+  height: 80px;
+  width: 200px;
+  background-color: black;
+  top: 80%;
+}
+
+.section1 .box p {
+  color: white;
+}
+
+.fa-angle-right {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  color: teal;
+  font-size: 101px;
+}
+
+.fa-angle-left {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  font-size: 80px;
+  color: red;
+}
+
+.section2 {
+  display: none;
+  background-image: url("8009.jpg");
+  -webkit-animation-name: opene;
+          animation-name: opene;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  /* Full height */
+  height: 800px;
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.section2 .box {
+  -webkit-animation-name: openb;
+          animation-name: openb;
+  -webkit-animation-duration: 0.5s;
+          animation-duration: 0.5s;
+  position: absolute;
+  padding: 30px;
+  height: 80px;
+  width: 200px;
+  background-color: white;
+  top: 80%;
+}
+
+.section2 .box p {
+  color: black;
+}
+
+.section3 {
+  display: none;
+  background-image: url("8008.jpg");
+  /* Full height */
+  height: 800px;
+  -webkit-animation-name: opene;
+          animation-name: opene;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.section3 .box {
+  -webkit-animation-name: openb;
+          animation-name: openb;
+  -webkit-animation-duration: 0.5s;
+          animation-duration: 0.5s;
+  position: absolute;
+  padding: 30px;
+  height: 80px;
+  width: 200px;
+  background-color: white;
+  top: 80%;
+}
+
+.section3 .box p {
+  color: black;
+}
+
+@-webkit-keyframes opene {
+  from {
+    opacity: 0.5;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes opene {
+  from {
+    opacity: 0.5;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes openb {
+  from {
+    opacity: 0.5;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes openb {
+  from {
+    opacity: 0.5;
+  }
+  to {
+    opacity: 1;
+  }
+}
+/*# sourceMappingURL=style.css.map */
